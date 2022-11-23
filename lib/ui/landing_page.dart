@@ -12,6 +12,7 @@ class LandingPage extends StatelessWidget {
         backgroundColor: Colors.black,
         splash: Column(
           children: [
+            SizedBox(height: 50,),
             CircleAvatar(
               backgroundImage: AssetImage("img/logo.png"),
             ),
